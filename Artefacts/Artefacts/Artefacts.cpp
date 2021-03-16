@@ -9,19 +9,66 @@ class Art
 {
 public: string name, body, leftarm, rightarm, legs, helmet;
       int hp,mana, know,mm, atk,pr;
+      string bdtype [5]{"Head","Left arm","Right arm","Legs","Chest"};
       
 };
 int main()
 {
+    
     Art Hood;
+    Hood.bdtype [0];
+    Hood.name = "Waffel's Hood";
+    Hood.mana = 100;
+    Hood.know = 25;
+    Hood.mm = 80;
     Art Hood1;
+    Hood1.bdtype [0];
+    Hood1.name = "Tough Hood";
+    Hood1.mana = 200;
+    Hood1.know = 30;
+    Hood1.mm = 120;
     Art Hood2;
+    Hood2.bdtype [0];
+    Hood2.name = "Real Hood";
+    Hood2.mana = 300;
+    Hood2.know = 50;
+    Hood2.mm = 180;
     Art Cloak;
+    Cloak.bdtype [4];
+    Cloak.name = "Cloak";
+    Cloak.mana = 250;
+    Cloak.know = 35;
+    Cloak.mm = 160;
+
     Art Cloak1;
+    Cloak1.bdtype [4];
+    Cloak.name = "Cloak of hell";
+    Cloak.atk = 30;
+    Cloak.mana = 350;
+    Cloak.know = 45;
+    Cloak.mm = 228;
     Art Cloak2;
+    Cloak2.bdtype [4];
+    Cloak.name = "Cum Cloak";
+    Cloak.atk = 45;
+    Cloak.mana = 450;
+    Cloak.know = 60;
+    Cloak.mm = 322;
     Art Ring;
+    Ring.bdtype [1];
+    Ring.name = "Weak ring";
+    Ring.mm = 100;
+    Ring.know = 75;
     Art Ring1;
+    Ring1.bdtype [1];
+    Ring1.name = "Nikita's ring";
+    Ring1.mm = 150;
+    Ring1.know = 100;
     Art Ring2;
+    Ring1.bdtype [1];
+    Ring1.name = "Anal ring";
+    Ring1.mm = 200;
+    Ring1.know = 130;
     Art Biblia;
     Art Biblia1;
     Art Biblia2;

@@ -100,7 +100,11 @@ int main()
         
     }
     goto a;
+<<<<<<< HEAD
 
+=======
+    cout <<"HateAlan";
+>>>>>>> 2f0325e6183b349b05b642133f6219b38f9f9030
 }
 
 

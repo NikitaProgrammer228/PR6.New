@@ -38,22 +38,28 @@ int main()
     Cloak.name = "Cloak";
     Cloak.mana = 250;
     Cloak.know = 35;
+    Cloak.hp = 100;
+    Cloak.pr = 3;
     Cloak.mm = 160;
 
     Art Cloak1;
     Cloak1.bdtype [4];
-    Cloak.name = "Cloak of hell";
-    Cloak.atk = 30;
-    Cloak.mana = 350;
-    Cloak.know = 45;
-    Cloak.mm = 228;
+    Cloak1.name = "Cloak of hell";
+    Cloak1.atk = 30;
+    Cloak1.mana = 350;
+    Cloak1.know = 45;
+    Cloak1.pr = 5;
+    Cloak1.mm = 228;
+    Cloak1.hp = 200;
     Art Cloak2;
     Cloak2.bdtype [4];
-    Cloak.name = "Cum Cloak";
-    Cloak.atk = 45;
-    Cloak.mana = 450;
-    Cloak.know = 60;
-    Cloak.mm = 322;
+    Cloak2.name = "Cum Cloak";
+    Cloak2.atk = 45;
+    Cloak2.pr = 7;
+    Cloak2.mana = 450;
+    Cloak2.know = 60;
+    Cloak2.hp = 300;
+    Cloak2.mm = 322;
     Art Ring;
     Ring.bdtype [1];
     Ring.name = "Weak ring";
@@ -65,19 +71,26 @@ int main()
     Ring1.mm = 150;
     Ring1.know = 100;
     Art Ring2;
-    Ring1.bdtype [1];
-    Ring1.name = "Anal ring";
-    Ring1.mm = 200;
-    Ring1.know = 130;
+    Ring2.bdtype [1];
+    Ring2.name = "Anal ring";
+    Ring2.mm = 200;
+    Ring2.know = 130;
+    Ring2.hp = 50;
     Art Biblia;
-    Art Biblia1;
-    Art Biblia2;
+    Biblia.bdtype[2];
+    Biblia.hp = 250;
+    Biblia.know = 200;
+    Biblia.mm = 230;
+    Biblia.name = "Holy Bible";
     Art ManaBoots;
-    Art ManaBoots1;
-    Art ManaBoots2;
+    ManaBoots.name = "Mana Boots";
+    ManaBoots.mana = 170;
+    ManaBoots.mm = 50;
     Art Stick;
-    Art Stick2;
-    Art Stick3;     //WizardArtefacts
+    Stick.mm = 200;
+    Stick.name = "Wizard Stick";
+    Stick.bdtype [2];
+    Art Stick2;     //WizardArtefacts
 
     Art Sword;
     Art Sword1;
@@ -115,7 +128,8 @@ int main()
     Art PaiperUmbrella;
     Art GrannyHat;
     Art LatexGloveRight;
-    Art LatexGloveLeft; //LegendaryItems
+    Art LatexGloveLeft;
+    Art StealDildo; //LegendaryItems
 
 }
 

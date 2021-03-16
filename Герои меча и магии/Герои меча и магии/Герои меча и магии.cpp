@@ -4,9 +4,13 @@ using namespace std;
 #include <iostream>
 #include <string>
 
+class atak
+{
+
+};
 class Person
 {
-public: string name, clas, art, nav;
+public: string name, clas, art, nav, hit1,hit2,hit3,hit4;
     int hp , lvl = 1, xp = 0 , xplvl = 100 , atk, pr , know, mm, gold = 500, mana;
 
 
@@ -33,6 +37,10 @@ int main()
         warrior.mana = 0;
         warrior.atk = 150;
         warrior.mm = 0;
+        warrior.hit1 = "Взмах меча";
+        warrior.hit2 = "Расколенный клинок";
+        warrior.hit3 = "Смертельный удар";
+        warrior.hit4 = "Яростный удар";
         cout << "Clas - " << warrior.clas << "\n";
         cout << "Hp - " << warrior.hp << "\n";
         cout << "Lvl - " << warrior.lvl << "\n";
@@ -57,6 +65,10 @@ int main()
         wizard.mana = 400;
         wizard.atk = 100;
         wizard.mm = 150;
+        wizard.hit1 = "Огненный шар";
+        wizard.hit2 = "Ледяной шар";
+        wizard.hit3 = "Электроимпульс";
+        wizard.hit4 = "Ядовитое облако";
         cout << "Clas - " << wizard.clas << "\n";
         cout << "Hp - " << wizard.hp << "\n";
         cout << "Lvl - " << wizard.lvl << "\n";
@@ -80,6 +92,10 @@ int main()
         archer.mana = 200;
         archer.atk = 200;
         archer.mm = 50;
+        archer.hit1 = "Огненная стрела";
+        archer.hit2 = "Ледяная стрела";
+        archer.hit3 = "Стрела";
+        archer.hit4 = "Очередь стрел";
         cout << "Clas - " << archer.clas << "\n";
         cout << "Hp - " << archer.hp << "\n";
         cout << "Lvl - " << archer.lvl << "\n";
@@ -97,14 +113,26 @@ int main()
 
     default:
         break;
+
         
     }
-    goto a;
-<<<<<<< HEAD
+    int z;
+    cin >> z;
+    cout << "Choose where you want to go?\n 1)Shop\n 2)Forest";
+    switch (z)
 
-=======
-    cout <<"HateAlan";
->>>>>>> 2f0325e6183b349b05b642133f6219b38f9f9030
+    {
+    case 1:
+        cout << "You in shop";
+        break;
+        case 2:
+        cout << "You in Forest"
+    
+    default:
+        break;
+    }
+    goto a;
+
 }
 
 

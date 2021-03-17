@@ -3,10 +3,9 @@
 using namespace std;
 #include <iostream>
 #include <string>
-
-class atak
+class Hole
 {
-
+public: string name, hard, boss;
 };
 class Person
 {
@@ -22,6 +21,9 @@ int main()
     int x;
     cout << "Choose your destiny:\n 1 - Warrior\n 2 - Wizard\n 3 - Archer \n ";
     cin >> x;
+    Hole Easy;
+    Hole Medium;
+    Hole Hard;
     Person warrior;
     Person wizard;
     Person archer;
@@ -116,23 +118,43 @@ int main()
 
         
     }
-    int z;
-    cin >> z;
+     int z;
+    
     cout << "Choose where you want to go?\n 1)Shop\n 2)Forest";
+    cin >> z;
     switch (z)
 
     {
     case 1:
         cout << "You in shop";
         break;
-        case 2:
-        cout << "You in Forest"
-    
+    case 2:
+        cout << "You in Forest\n";
+        cout << "You find cave\n";
+        Easy.name = "<-Elgorskaya cave->";
+        cout << "This is <-Elgorskaya cave->\n";
+        Easy.hard = "Bronze Level";
+        cout << "Bronze level\n";
+        Easy.boss = "50/50";
+        cout << "Boss: 50/50\n";
+
+        if (x == 1)
+        {
+            RAND_MAX;
+            warrior.xp = rand() % 200 + 50;
+            warrior.gold = rand() % 1000 + 200;
+            cout << "You find GOLD =" << warrior.gold << "\n";
+            cout << "Your xp =" << warrior.xp<<"\n";
+        }
+        else
+        {
+            cout << "Bye";
+        }
+        
+
     default:
         break;
     }
-    goto a;
-
 }
 
 

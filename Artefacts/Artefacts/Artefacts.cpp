@@ -27,12 +27,7 @@ int main()
     Hood1.mana = 200;
     Hood1.know = 30;
     Hood1.mm = 120;
-    Art Hood2;
-    Hood2.bdtype [0];
-    Hood2.name = "Real Hood";
-    Hood2.mana = 300;
-    Hood2.know = 50;
-    Hood2.mm = 180;
+    
     Art Cloak;
     Cloak.bdtype [4];
     Cloak.name = "Cloak";
@@ -42,15 +37,7 @@ int main()
     Cloak.pr = 3;
     Cloak.mm = 160;
 
-    Art Cloak1;
-    Cloak1.bdtype [4];
-    Cloak1.name = "Cloak of hell";
-    Cloak1.atk = 30;
-    Cloak1.mana = 350;
-    Cloak1.know = 45;
-    Cloak1.pr = 5;
-    Cloak1.mm = 228;
-    Cloak1.hp = 200;
+    
     Art Cloak2;
     Cloak2.bdtype [4];
     Cloak2.name = "Cum Cloak";
@@ -60,11 +47,7 @@ int main()
     Cloak2.know = 60;
     Cloak2.hp = 300;
     Cloak2.mm = 322;
-    Art Ring;
-    Ring.bdtype [1];
-    Ring.name = "Weak ring";
-    Ring.mm = 100;
-    Ring.know = 75;
+    
     Art Ring1;
     Ring1.bdtype [1];
     Ring1.name = "Nikita's ring";
@@ -90,46 +73,100 @@ int main()
     Stick.mm = 200;
     Stick.name = "Wizard Stick";
     Stick.bdtype [2];
-    Art Stick2;     //WizardArtefacts
+        //WizardArtefacts
 
     Art Sword;
+    Sword.name = "Sword";
+    Sword.atk = 175;
+    Sword.bdtype[2];
+    Sword.pr = 50;
     Art Sword1;
-    Art Sword2;
+    Sword.name = "Fire Sword";
+    Sword1.atk = 250;
+    Sword1.bdtype[2];
+    Sword1.pr = 75;
     Art Shield;
+    Shield.name = "Shield";
+    Shield.bdtype[1];
+    Shield.pr =150;
+    Shield.atk = 50;
     Art Shield1;
-    Art Shield2;
-    Art Helm;
+    Shield1.name = "Shield of Strenght";
+    Shield1.bdtype[1];
+    Shield1.pr =200;
+    Shield1.atk = 65;
     Art Helm1;
-    Art Helm2;
+    Helm1.name = "Helm #1";
+    Helm1.pr = 200;
+    Helm1.hp = 100;
+    Helm1.bdtype [0];
+    Art Helm;
+    Helm.name = "Dominator Helm";
+    Helm.pr = 175;
+    Helm.bdtype [0];
     Art Chest;
+    Chest.name = "Armor chest";
+    Chest.pr = 300;
+    Chest.bdtype [4];
     Art Chest1;
-    Art Chest2;
+    Chest.name = "Armor chest #2";
+    Chest.pr = 400;
+    Chest.bdtype [4];
     Art Boots1;
-    Art Boots2;
-    Art Boots3; //WarriorArtefacts
+    Boots1.name = "Travel Boots";
+      Boots1.pr = 100;
+      Boots1.hp = 100;
+      Boots1.mana = 50;
+      Boots1.bdtype [3];
+                             //WarriorArtefacts
 
     Art Bow;
+    Bow.name = "Vadim's Bow";
+    Bow.atk = 150;
+    Bow.bdtype [2];
+    Bow.mm = 100;
     Art Bow1;
-    Art Bow2;
+    Bow1.name =  "Wind Bow";
+    Bow1.atk = 225;
+    Bow1.bdtype [2];
+    Bow1.mm = 145;
+
+
+    
     Art Dagger;
+    Dagger.name = "Cocky Dagger";
+    Dagger.atk = 75;
+    Dagger.bdtype [1];
     Art Dagger1;
-    Art Dagger2;
+    Dagger1.name = "Blink Dagger";
+    Dagger1.atk = 75;
+    Dagger1.bdtype [1];
+    
     Art Jacket;
+    Jacket.name = "Jimmy's Jacket";
+    Jacket.hp = 250;
+    Jacket.mana = 125;
+    Jacket.pr = 50;
+    Jacket.bdtype [4];
     Art Jacket1;
-    Art Jacket2;
+    Jacket1.name = "Bulls Jacket";
+    Jacket1.hp = 700;
+    Jacket1.mana = 250;
+    Jacket1.pr = 100;
+    Jacket1.bdtype [4];
+    
     Art PT1;
-    Art PT2;
-    Art PT; //ArcherArtefacts
+    PT1.name = "PThi";
+    PT1.hp = 75;
+    PT1.mana = 100;
+    PT1.mm = 125;
+    PT1.atk = 150;
+    PT1.know = 175;
+    PT1.bdtype [3];
+     //ArcherArtefacts
 
 
-    Art ShellyShotgun;
-    Art Claymore;
-    Art ArcaneBoots;
-    Art PaiperUmbrella;
-    Art GrannyHat;
-    Art LatexGloveRight;
-    Art LatexGloveLeft;
-    Art StealDildo; //LegendaryItems
+
 
 }
 

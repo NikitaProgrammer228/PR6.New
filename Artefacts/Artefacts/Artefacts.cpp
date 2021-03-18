@@ -34,7 +34,7 @@ int main()
     Cloak.mana = 250;
     Cloak.know = 35;
     Cloak.hp = 100;
-    Cloak.pr = 3;
+    Cloak.pr = 1;
     Cloak.mm = 160;
 
     
@@ -42,7 +42,7 @@ int main()
     Cloak2.bdtype [4];
     Cloak2.name = "Cum Cloak";
     Cloak2.atk = 45;
-    Cloak2.pr = 7;
+    Cloak2.pr = 2;
     Cloak2.mana = 450;
     Cloak2.know = 60;
     Cloak2.hp = 300;
@@ -79,43 +79,43 @@ int main()
     Sword.name = "Sword";
     Sword.atk = 175;
     Sword.bdtype[2];
-    Sword.pr = 50;
+    Sword.pr = 1;
     Art Sword1;
     Sword.name = "Fire Sword";
     Sword1.atk = 250;
     Sword1.bdtype[2];
-    Sword1.pr = 75;
+    Sword1.pr = 2;
     Art Shield;
     Shield.name = "Shield";
     Shield.bdtype[1];
-    Shield.pr =150;
+    Shield.pr =2;
     Shield.atk = 50;
     Art Shield1;
     Shield1.name = "Shield of Strenght";
     Shield1.bdtype[1];
-    Shield1.pr =200;
+    Shield1.pr =10;
     Shield1.atk = 65;
     Art Helm1;
     Helm1.name = "Helm #1";
-    Helm1.pr = 200;
+    Helm1.pr = 7;
     Helm1.hp = 100;
     Helm1.bdtype [0];
     Art Helm;
     Helm.name = "Dominator Helm";
-    Helm.pr = 175;
+    Helm.pr = 9;
     Helm.bdtype [0];
     Art Chest;
     Chest.name = "Armor chest";
-    Chest.pr = 300;
+    Chest.pr = 11;
     Chest.bdtype [4];
     Art Chest1;
     Chest.name = "Armor chest #2";
-    Chest.pr = 400;
+    Chest.pr = 12;
     Chest.bdtype [4];
     Art Boots1;
     Boots1.name = "Travel Boots";
-      Boots1.pr = 100;
-      Boots1.hp = 100;
+      Boots1.pr = 5;
+      Boots1.hp = 200;
       Boots1.mana = 50;
       Boots1.bdtype [3];
                              //WarriorArtefacts
@@ -139,20 +139,20 @@ int main()
     Dagger.bdtype [1];
     Art Dagger1;
     Dagger1.name = "Blink Dagger";
-    Dagger1.atk = 75;
+    Dagger1.atk = 90;
     Dagger1.bdtype [1];
     
     Art Jacket;
     Jacket.name = "Jimmy's Jacket";
     Jacket.hp = 250;
     Jacket.mana = 125;
-    Jacket.pr = 50;
+    Jacket.pr = 2;
     Jacket.bdtype [4];
     Art Jacket1;
     Jacket1.name = "Bulls Jacket";
     Jacket1.hp = 700;
     Jacket1.mana = 250;
-    Jacket1.pr = 100;
+    Jacket1.pr = 3;
     Jacket1.bdtype [4];
     
     Art PT1;
